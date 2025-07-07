@@ -1,0 +1,6 @@
+#flutter_native_splash:
+#  #color: "#ffffff"  # Background color for splash screen (set to white)
+#  # image: assets/images/zaika_splash_image.png  # Optional: Your custom splash image
+#  android: true  # Ensure Android is enabled
+#  ios: true      # Optional: Enable for iOS
+#  web: false     # Optional: Disable for web if you're not using Flutter web

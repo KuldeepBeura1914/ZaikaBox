@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Declare SplashScreen attributes -->
+    <declare-styleable name="SplashScreenStyle">
+        <attr name="windowSplashScreenBackground" format="color"/>
+        <attr name="windowSplashScreenAnimatedIcon" format="reference"/>
+        <attr name="postSplashScreenTheme" format="reference"/>
+    </declare-styleable>
+
+    <!-- Splash Screen Theme -->
+    <style name="LaunchTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/purple_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/zaikabox_logo</item>
+        <item name="postSplashScreenTheme">@style/NormalTheme</item>
+    </style>
+
+    <!-- Normal Theme (for after splash) -->
+    <style name="NormalTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/purple_bg</item>
+    </style>
+
+</resources>

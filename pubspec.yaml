@@ -1,0 +1,137 @@
+name: zaika_box
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.3
+  flutter_lints: ^5.0.0
+  cloud_firestore: ^5.6.7
+  razorpay_flutter: ^1.4.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.6
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/images/
+    - lib/assets/images/pizza.jpg
+    - lib/assets/images/burger.jpg
+    - lib/assets/images/drink.jpg
+    - lib/assets/images/drinks.jpg
+    - lib/assets/images/cake.jpg
+    - lib/assets/images/pizzaaa.jpg
+    - lib/assets/images/piza.jpg
+    - lib/assets/images/cheese_pizza.jpg
+    - lib/assets/images/pasta.jpg
+    - lib/assets/images/login_illustration.png
+    - lib/assets/images/waves.png
+    - lib/assets/images/chocolate_cake.jpg
+    - lib/assets/images/ice_cream_sundae.jpg
+    - lib/assets/images/fruit_tart.jpg
+    - lib/assets/images/cheesecake.jpg
+    - lib/assets/images/watermelon.jpg
+    - lib/assets/images/mint.jpg
+    - lib/assets/images/blueberry.jpg
+    - lib/assets/images/masalacoke.jpg
+    - lib/assets/images/hyderabadibiryani.jpg
+    - lib/assets/images/veg_biryani.jpg
+    - lib/assets/images/chicken_biryani.jpg
+    - lib/assets/images/mutton_biryani.jpg
+    - lib/assets/images/alfredo_pasta.jpg
+    - lib/assets/images/spaghetti_bolognese.jpg
+    - lib/assets/images/penne_arrabbiata.jpg
+    - lib/assets/images/mac_and_cheese.jpg
+    - lib/assets/images/promo2.jpg
+    - lib/assets/images/caesar_salad.jpg
+    - lib/assets/images/greek_salad.jpg
+    - lib/assets/images/garden_salad.jpg
+    - lib/assets/images/fruit_salad.jpg
+    - lib/assets/images/aloo_paratha.jpg
+    - lib/assets/images/paneer_paratha.jpg
+    - lib/assets/images/methi_paratha.jpg
+    - lib/assets/images/mix_veg_paratha.jpg
+    - lib/assets/images/fries.jpg
+    - lib/assets/images/sandwich.jpg
+    - lib/assets/images/veg_thali.jpg
+    - lib/assets/images/non_veg_thali.jpg
+    - lib/assets/images/momos.jpg
+    - lib/assets/images/chicken_tika.jpg
+    - lib/assets/images/paneer_roll.jpg
+    - lib/assets/images/butter_chicken.jpg
+    - lib/assets/images/classic_fries.jpg
+    - lib/assets/images/peri_peri_fries.jpg
+    - lib/assets/images/cheesy_fries.jpg
+    - lib/assets/images/loaded_fries.jpg
+    - lib/assets/images/popular_item_pizza.jpg
+    - lib/assets/images/popular_item_burger.jpg
+    - lib/assets/images/chole_bhature.jpg
+    - lib/assets/images/masala_dosa.jpg
+    - lib/assets/images/hakka_noodles.jpg
+    - lib/assets/images/gulab_jamun.jpg
+    - lib/assets/images/spring_rolls.jpg
+    - lib/assets/images/fried_rice.jpg
+    - lib/assets/images/rasmalai.jpg
+    - lib/assets/images/garlic_bread.jpg
+    - lib/assets/images/chocolate_brownie.jpg
+    - lib/assets/images/chilly_chicken.jpg
+    - lib/assets/images/chicken_popcorn.jpg
+    - lib/assets/images/chicken_nuggets.jpg
+    - lib/assets/images/tandoori_chicken.jpg
+    - lib/assets/images/blue_lagoon_mojito.jpg
+    - lib/assets/images/grilled_chicken_sandwich.jpg
+    - lib/assets/images/veg_club_sandwich.jpg
+    - lib/assets/images/paneer_tikka_sandwich.jpg
+    - lib/assets/images/cheese_corn_sandwich.jpg
+    - lib/assets/images/garlic_naan.jpg
+    - lib/assets/images/paneer_butter_masala.jpg
+    - lib/assets/images/chicken_shawarma.jpg
+    - lib/assets/images/egg_fried_rice.jpg
+    - lib/assets/images/paneer_tikka.jpg
+    - lib/assets/images/herb_roasted_chicken.jpg
+    - lib/assets/images/tteokbokki.jpg
+    - lib/assets/images/avocado_toast.jpg
+    - lib/assets/images/mango_margarita.jpg
+    - lib/assets/images/vegetable_korma.jpg
+    - lib/assets/images/chili_garlic_noodles.jpg
+    - lib/assets/images/chocolate_lava_cake.jpg
+    - lib/assets/images/mushroom_masala.jpg
+    - lib/assets/images/dal_makhani.jpg
+    - lib/assets/images/garlic_butter_prawns.jpg
+    - lib/assets/images/dessert.jpg
+    - lib/assets/images/italian-mac-and-cheese-pasta.jpg
+    - lib/assets/images/veg-caesar-salad.jpg
+#    - lib/assets/images/zaikabox_logo.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/icon/zaikabox_icons.png"
+
+flutter_native_splash:
+  color: "#673AB7" # Purple background
+  image: lib/assets/zaikabox_logo.png
+  android: true
+  ios: true
+
+  android_12:
+    color: "#673AB7"
+    image: lib/assets/zaikabox_logo.png
+    icon_background_color: "#800080"
